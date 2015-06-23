@@ -20,7 +20,11 @@ Type inference works in three parts:
 
 
 
-
+.
+.
+.
+.
+.
 
 
 ------------------ 1. Constraint generation --------------------
@@ -40,10 +44,15 @@ Constraint set example {{ (expr1 := num), (expr2 := bool-->type-of(expr1)) }}
 
 
 
-
+.
+.
+.
+.
+.
 
 
 ----------------------- 2. Unification -------------------------
+
 The set of constraints produced by gen-constraints is iterated over. For each constraint,
 
 all instances of the left-hand-side as type variables are substituted with the right-hand-side.
@@ -67,7 +76,11 @@ possible substitutions.
 
 
 
-
+.
+.
+.
+.
+.
 
 
 
