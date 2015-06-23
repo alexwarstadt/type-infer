@@ -123,17 +123,31 @@ resulting type is normalized, i.e. any remaining type-variables are renamed star
 
 
 ------------------- Grammar for target language --------------------
+
 <expr> ::= <num>
+
          | <id>
+         
          | true | false
+         
          | (+ <expr> <expr>)
+         
          | (num= <expr> <expr>)
+         
          | (link <expr> <expr>)
+         
          | (if <expr> <expr> <expr>)
+         
          | (lam (<id>) <expr>)
+         
          | (let ((<id> <expr>)) <expr>)
+         
          | (<expr> <expr>)
+         
          | (first <expr>)
+         
          | (rest <expr>)
+         
          | (is-empty <expr>)
+         
          | empty
