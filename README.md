@@ -9,6 +9,7 @@ The inputted string is parsed into abstract syntax by an outside parser.
 The most general type is returned.
 
 
+
 Tests are included in type-inference-tests. The test suite is a comprehensive specification
 
 of the desired functionality. The `sweep' at the beginning includes interesting cases,
@@ -105,3 +106,34 @@ performs all possible substitutions in the return type using the information in 
 
 resulting type is normalized, i.e. any remaining type-variables are renamed starting at 0.
 
+
+
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+------------------- Grammar for target language --------------------
+<expr> ::= <num>
+         | <id>
+         | true | false
+         | (+ <expr> <expr>)
+         | (num= <expr> <expr>)
+         | (link <expr> <expr>)
+         | (if <expr> <expr> <expr>)
+         | (lam (<id>) <expr>)
+         | (let ((<id> <expr>)) <expr>)
+         | (<expr> <expr>)
+         | (first <expr>)
+         | (rest <expr>)
+         | (is-empty <expr>)
+         | empty
