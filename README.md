@@ -21,9 +21,13 @@ Type inference works in three parts:
 
 
 .
+
 .
+
 .
+
 .
+
 .
 
 
@@ -44,10 +48,15 @@ Constraint set example {{ (expr1 := num), (expr2 := bool-->type-of(expr1)) }}
 
 
 
+
 .
+
 .
+
 .
+
 .
+
 .
 
 
@@ -77,9 +86,13 @@ possible substitutions.
 
 
 .
+
 .
+
 .
+
 .
+
 .
 
 
