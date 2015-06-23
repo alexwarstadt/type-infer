@@ -124,7 +124,10 @@ resulting type is normalized, i.e. any remaining type-variables are renamed star
 
 ------------------- Grammar for target language --------------------
 
-<expr> ::= <num>
+
+<expr> ::= 
+
+         | <num>
 
          | <id>
          
