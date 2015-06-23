@@ -125,7 +125,7 @@ resulting type is normalized, i.e. any remaining type-variables are renamed star
 ------------------- Grammar for target language --------------------
 
 
-<expr> ::= 
+```<expr> ::= 
 
          | <num>
 
@@ -153,4 +153,4 @@ resulting type is normalized, i.e. any remaining type-variables are renamed star
          
          | (is-empty <expr>)
          
-         | empty
+         | empty'''
